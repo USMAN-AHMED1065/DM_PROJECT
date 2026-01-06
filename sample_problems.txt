@@ -1,0 +1,173 @@
+# ═══════════════════════════════════════════════════════════════
+# DISCRETE MATHEMATICS - SAMPLE PROBLEMS FILE
+# For use with Menu: 5 → 2 (Solve from File)
+# ═══════════════════════════════════════════════════════════════
+
+# Instructions:
+# This file contains problems in plain text format
+# The program will read and attempt to solve them
+
+# Problem format can be:
+# - Natural language questions
+# - Mathematical expressions
+# - Specific operation requests
+
+# ═══════════════════════════════════════════════════════════════
+# PROBLEM SET 1: PRIME NUMBERS
+# ═══════════════════════════════════════════════════════════════
+
+Problem 1: Is 97 prime?
+
+Problem 2: Check if 100 is a prime number
+
+Problem 3: Find the next prime after 50
+
+Problem 4: Generate all prime numbers up to 30
+
+Problem 5: What is the 10th prime number?
+
+# ═══════════════════════════════════════════════════════════════
+# PROBLEM SET 2: MODULAR ARITHMETIC
+# ═══════════════════════════════════════════════════════════════
+
+Problem 6: Calculate 3^5 mod 7
+
+Problem 7: Find the modular exponentiation of base=2, exponent=10, modulus=13
+
+Problem 8: Compute 7^50 mod 101
+
+Problem 9: What is 2^100 mod 13?
+
+# ═══════════════════════════════════════════════════════════════
+# PROBLEM SET 3: GCD AND EXTENDED GCD
+# ═══════════════════════════════════════════════════════════════
+
+Problem 10: Find gcd(48, 18)
+
+Problem 11: Calculate the greatest common divisor of 1071 and 462
+
+Problem 12: Use Extended Euclidean Algorithm to find gcd(240, 46) with Bézout coefficients
+
+Problem 13: What is gcd(17, 19)?
+
+# ═══════════════════════════════════════════════════════════════
+# PROBLEM SET 4: MODULAR INVERSE
+# ═══════════════════════════════════════════════════════════════
+
+Problem 14: Find the modular inverse of 3 modulo 11
+
+Problem 15: Calculate the multiplicative inverse of 5 mod 17
+
+Problem 16: Does 6 have a modular inverse modulo 9? Why or why not?
+
+# ═══════════════════════════════════════════════════════════════
+# PROBLEM SET 5: CHINESE REMAINDER THEOREM
+# ═══════════════════════════════════════════════════════════════
+
+Problem 17: Solve the system:
+x ≡ 2 (mod 3)
+x ≡ 3 (mod 5)
+
+Problem 18: Find x satisfying:
+x ≡ 2 (mod 3)
+x ≡ 3 (mod 5)
+x ≡ 2 (mod 7)
+
+Problem 19: Chinese Remainder Theorem for:
+x ≡ 1 (mod 3)
+x ≡ 2 (mod 5)
+x ≡ 3 (mod 7)
+
+# ═══════════════════════════════════════════════════════════════
+# PROBLEM SET 6: FERMAT'S LITTLE THEOREM
+# ═══════════════════════════════════════════════════════════════
+
+Problem 20: Verify Fermat's Little Theorem for a=2, p=7
+(Should show that 2^6 ≡ 1 mod 7)
+
+Problem 21: Use Fermat's theorem to compute 5^100 mod 11
+
+# ═══════════════════════════════════════════════════════════════
+# PROBLEM SET 7: PRIME FACTORIZATION
+# ═══════════════════════════════════════════════════════════════
+
+Problem 22: Find the prime factorization of 60
+
+Problem 23: Factorize 1024 into prime powers
+
+Problem 24: What are the prime factors of 221?
+
+Problem 25: Express 144 as a product of prime powers
+
+# ═══════════════════════════════════════════════════════════════
+# PROBLEM SET 8: EULER'S TOTIENT FUNCTION
+# ═══════════════════════════════════════════════════════════════
+
+Problem 26: Calculate φ(10)
+
+Problem 27: Find Euler's totient function of 15
+
+Problem 28: What is φ(100)?
+
+# ═══════════════════════════════════════════════════════════════
+# PROBLEM SET 9: COMBINED PROBLEMS
+# ═══════════════════════════════════════════════════════════════
+
+Problem 29: For RSA with p=5, q=11:
+a) Calculate n
+b) Calculate φ(n)
+c) Choose a public exponent e
+d) Find the private exponent d
+
+Problem 30: Given that 17 and 19 are prime:
+a) Find gcd(17, 19)
+b) Find the modular inverse of 17 mod 19
+c) Verify using Bézout's identity
+
+# ═══════════════════════════════════════════════════════════════
+# PROBLEM SET 10: ADVANCED CHALLENGES
+# ═══════════════════════════════════════════════════════════════
+
+Problem 31: How many primes are there between 1 and 100?
+
+Problem 32: What is the largest prime gap in the first 100 primes?
+
+Problem 33: Calculate the Möbius function μ(n) for n = 1 to 15
+
+Problem 34: Verify that (3 × modInverse(3, 11)) mod 11 = 1
+
+Problem 35: Find the smallest positive integer x such that:
+x ≡ 1 (mod 2)
+x ≡ 2 (mod 3)
+x ≡ 3 (mod 5)
+
+# ═══════════════════════════════════════════════════════════════
+# PROBLEM SET 11: CRYPTOGRAPHY APPLICATIONS
+# ═══════════════════════════════════════════════════════════════
+
+Problem 36: Generate RSA keys with 10-bit primes
+
+Problem 37: If public key is (e=7, n=33), encrypt the message m=5
+
+Problem 38: For the blockchain voting system, explain how hash chaining prevents tampering
+
+# ═══════════════════════════════════════════════════════════════
+# PROBLEM SET 12: THEORETICAL QUESTIONS
+# ═══════════════════════════════════════════════════════════════
+
+Problem 39: Explain why the Sieve of Eratosthenes has O(n log log n) complexity
+
+Problem 40: Why must moduli in the Chinese Remainder Theorem be pairwise coprime?
+
+Problem 41: How does the Extended Euclidean Algorithm find Bézout coefficients?
+
+# ═══════════════════════════════════════════════════════════════
+# END OF PROBLEMS FILE
+# Total: 41 problems covering all major topics
+# ═══════════════════════════════════════════════════════════════
+
+# Notes for using this file:
+# 1. Save this file in the same directory as the program
+# 2. Run the program and select Menu 5 → 2
+# 3. Enter the filename when prompted
+# 4. The program will process each problem and generate solutions

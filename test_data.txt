@@ -1,0 +1,275 @@
+# ============================================
+# DISCRETE MATHEMATICS TOOLKIT
+# TEST INPUT DATA FILE
+# For deepseek.cpp
+# ============================================
+
+# Format: Each section contains input data
+# that can be used with the program's features
+
+# ============================================
+# SECTION 1: PRIME NUMBER TESTING
+# Use with Menu: 1 → 1 (Check if Prime)
+# ============================================
+
+# Test Data Set 1 - Small Primes
+17
+23
+29
+31
+37
+
+# Test Data Set 2 - Small Composites
+4
+6
+8
+9
+10
+15
+21
+25
+100
+
+# Test Data Set 3 - Edge Cases
+1
+2
+3
+
+# Test Data Set 4 - Large Primes
+97
+101
+103
+107
+109
+1009
+1013
+7919
+
+# Test Data Set 5 - Large Composites
+1000
+1024
+9999
+
+# ============================================
+# SECTION 2: PRIME GENERATION (SIEVE)
+# Use with Menu: 1 → 2 (Generate Primes)
+# ============================================
+
+# Generate primes up to n
+30
+50
+100
+200
+500
+1000
+5000
+
+# ============================================
+# SECTION 3: NEXT PRIME FINDER
+# Use with Menu: 1 → 3 (Find Next Prime)
+# ============================================
+
+# Find next prime after n
+10
+50
+100
+500
+1000
+9999
+
+# ============================================
+# SECTION 4: MODULAR EXPONENTIATION
+# Use with Menu: 2 → 1 (Modular Exponentiation)
+# Format: base exponent modulus
+# ============================================
+
+# Test Case 1: Basic
+3 5 7
+
+# Test Case 2: Fermat's Little Theorem
+2 6 7
+
+# Test Case 3: Larger numbers
+5 13 19
+
+# Test Case 4: Large exponent
+2 100 13
+
+# Test Case 5: Large modulus
+7 50 101
+
+# Test Case 6: RSA-like
+42 65537 438359
+
+# ============================================
+# SECTION 5: GCD (Greatest Common Divisor)
+# Use with Menu: 2 → 2 (Extended GCD)
+# Format: a b
+# ============================================
+
+# Test Case 1: Basic GCD
+48 18
+
+# Test Case 2: Coprime numbers
+17 19
+
+# Test Case 3: Large numbers
+1071 462
+
+# Test Case 4: One divides other
+100 25
+
+# Test Case 5: Extended GCD examples
+240 46
+35 15
+123 456
+
+# ============================================
+# SECTION 6: MODULAR INVERSE
+# Use with Menu: 2 → 3 (Modular Inverse)
+# Format: a modulus
+# ============================================
+
+# Test Case 1: Basic
+3 11
+
+# Test Case 2: Another basic
+5 17
+
+# Test Case 3: Larger
+7 26
+
+# Test Case 4: Prime modulus
+15 23
+
+# ============================================
+# SECTION 7: CHINESE REMAINDER THEOREM
+# Use with Menu: 2 → 4 (CRT)
+# Format: number_of_equations
+#         a1 m1
+#         a2 m2
+#         ...
+# ============================================
+
+# Test Case 1: Two equations
+# x ≡ 2 (mod 3)
+# x ≡ 3 (mod 5)
+2
+2 3
+3 5
+
+# Test Case 2: Three equations
+# x ≡ 2 (mod 3)
+# x ≡ 3 (mod 5)
+# x ≡ 2 (mod 7)
+3
+2 3
+3 5
+2 7
+
+# Test Case 3: Another system
+3
+1 3
+2 5
+3 7
+
+# ============================================
+# SECTION 8: RSA CRYPTOGRAPHY
+# Use with Menu: 3 (Cryptography Suite)
+# ============================================
+
+# RSA Key Generation
+# Use Menu: 3 → 1 (Generate RSA Keys)
+# Input: bit size
+8
+10
+12
+14
+16
+
+# RSA Encryption
+# Use Menu: 3 → 2 (Encrypt Number)
+# First generate keys, then encrypt
+# Input: message number
+42
+100
+255
+1000
+
+# RSA Decryption
+# Use Menu: 3 → 3 (Decrypt Number)
+# Input: ciphertext number (from encryption)
+# Will be specific to the keys generated
+
+# ============================================
+# SECTION 9: PRIME DISTRIBUTION ANALYSIS
+# Use with Menu: 1 → 4 (Prime Distribution)
+# Format: upper_bound step_size
+# ============================================
+
+100 10
+500 50
+1000 100
+5000 500
+
+# ============================================
+# SECTION 10: PRIME GAPS ANALYSIS
+# Use with Menu: 1 → 5 (Prime Gaps)
+# Format: max_prime
+# ============================================
+
+100
+500
+1000
+5000
+
+# ============================================
+# SECTION 11: MÖBIUS FUNCTION
+# Use with Menu: 1 → 6 (Möbius Function)
+# Format: max_n
+# ============================================
+
+20
+30
+50
+100
+
+# ============================================
+# SECTION 12: BLOCKCHAIN VOTING
+# Use with Menu: 4 (Research Projects)
+# ============================================
+
+# Voter Registration - Menu 4 → 1
+# Input: voter ID (string)
+VOTER001
+VOTER002
+VOTER003
+VOTER004
+VOTER005
+
+# Cast Vote - Menu 4 → 2
+# Input: voter_id candidate_name
+VOTER001 Alice
+VOTER002 Bob
+VOTER003 Alice
+VOTER004 Charlie
+VOTER005 Bob
+
+# ============================================
+# SECTION 13: PROBLEM SOLVER FROM KEYBOARD
+# Use with Menu: 5 → 1 (Solve from Keyboard)
+# ============================================
+
+# Input problem description
+# Then input data based on problem type
+
+# Example problems:
+# "Find GCD of 48 and 18"
+# "Check if 97 is prime"
+# "Find next prime after 50"
+
+# ============================================
+# END OF TEST DATA FILE
+# Total sections: 13
+# Total test cases: 100+
+# ============================================
